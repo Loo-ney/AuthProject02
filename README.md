@@ -85,3 +85,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - initialize git in main project folder
     - `git init `
 
+- have to do remote add to git repo 
+ - i follow guide from gpt 
+
+- restructure src folder
+- install `npm install -D tailwindcss postcss autoprefixer` in client folder
+- execute `npx tailwindcss init -p` this creates tailwind and postcss config js

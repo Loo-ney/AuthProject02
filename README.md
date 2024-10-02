@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-### DOCUMENTING PROJECT
+## DOCUMENTING PROJECT
 
 ### setup
 - mkdir project folder
@@ -91,3 +91,80 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - restructure src folder
 - install `npm install -D tailwindcss postcss autoprefixer` in client folder
 - execute `npx tailwindcss init -p` this creates tailwind and postcss config js
+
+
+## Routes
+
+- for different routes we specify different components
+- install library called `react-router-dom`
+    - with this we create all the routes of this project
+
+- for this variable router we will create component for each router
+```javascript
+    const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <Username></Username>
+    },
+    {
+        path: '/register',
+        element: <Register></Register>
+    },
+    {
+        path : '/password',
+        element : <ProtectRoute><Password /></ProtectRoute>
+    },
+    {
+        path : '/profile',
+        element :<Profile ></Profile>
+    },
+    {
+        path : '/recovery',
+        element : <Recovery></Recovery>
+    },
+    {
+        path : '/reset',
+        element : <Reset></Reset>
+    },
+    {
+        path : '*',
+        element : <PageNotFound></PageNotFound>
+    },
+    ])    
+ ```
+
+- cd src
+    - mkdir components
+        - touch Username.js Register.js P
+assword.js Recovery.js Reset.js Profile.js PageNotFound.js
+
+- import components to `App.js` and specify to each path 
+
+## Login UI
+
+- create assests folder 
+ - inside assests we put images for UI
+
+- create folder styles 
+ - create file `Username.module.css`
+ - import to `Username.js` and apply accordingly
+
+
+- add google fonts 
+
+## FORMIK , REACT HOT TOAST
+- makes the ui completely interactive
+- react hot toast gives pop up errors and success messages
+- `npm i formik react-hot-toast` in client directory
+
+- for creating validate
+ - creater folder helper in src
+  - inside create validate.js file 
+
+
+
+## RESET UI
+- create password ui
+- create recovery ui
+- create reset ui
+- create validate for reset component

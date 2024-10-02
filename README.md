@@ -163,8 +163,38 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
 
 
 
-## RESET UI
+## RESET REC0VERY PASSWORD UI
 - create password ui
 - create recovery ui
 - create reset ui
 - create validate for reset component
+
+## REGSISTER UI
+- create register ui 
+- new file  `convert.js` is created for image conversion
+
+## PROFILE UI
+- create profile page functionality
+- create profile page validation
+- create profile.module.css
+    - extend styles
+
+
+# BACKEND    
+
+- working in server directory for backend
+- `npm init -y`
+ - initialize the server as node package 
+- `npm i express cors mongoose mongodb-memory-server multer nodemon` 
+    - express - backend routes
+    - cors - connect between two domains
+    - mongoose - creating database
+    - mongodb-memory-server :- to create mongodb in the memory
+    - multer : to log every request inside the console
+    - nodemon - to start development server
+
+- `npm i morgan`    
+
+- create backend application server in `server.js`
+
+### MONGODB

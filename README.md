@@ -222,3 +222,6 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
 ## creating /login controller
 - `openssl rand -base64 32` : generating secret key
 - and also verify user
+
+
+## /getUser in controller

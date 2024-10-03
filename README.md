@@ -207,3 +207,18 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
 
 ## THUNDER CLIENT
 - using thunder client for testing route 
+
+### creating controller one by one
+- before creating controller we need to define a structure of the document 
+    - for this create a folder `model` 
+        - inside model define the database structure create `User.model.js`
+
+### creating /register controller
+- `npm i bcrypt` for hashing password
+
+- 500 internal server error : when sending post request in thunder client 
+    - resolve this by downgrading mongoose to version 6
+
+## creating /login controller
+- `openssl rand -base64 32` : generating secret key
+- and also verify user

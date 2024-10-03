@@ -198,3 +198,12 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
 - create backend application server in `server.js`
 
 ### MONGODB
+-  creating database connection 
+
+### ENDPOINT - BACKEND API
+- create endpoint for all route for application
+- create controller folder
+ - controller for each route
+
+## THUNDER CLIENT
+- using thunder client for testing route 

@@ -1,12 +1,5 @@
 import React from 'react'
-
-
 import {Toaster} from 'react-hot-toast'
-
-
-
-import { Link } from 'react-router-dom'
-
 
 import styles from '../styles/Username.module.css'
 

@@ -224,4 +224,15 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
 - and also verify user
 
 
-## /getUser in controller
+## creating /getUser in controller
+- after valid login user, we can get token using getuser
+
+## creating /updateuser in controller
+-  specify the value in query to test in thunder client 
+
+# AUTH
+- authorising only the valid user to access
+- get token from user and pass to update user
+- create new folder middleware in server and create auth.js file
+
+## creating /generateOTP in controller

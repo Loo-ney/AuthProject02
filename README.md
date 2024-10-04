@@ -237,3 +237,12 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
 
 ## creating /generateOTP and verifty otp
 - install a library called `npm i otp-generator`
+
+## reset password
+
+## register mail
+-  `npm i nodemailer mailgen`
+ - go to nodemailer website for instructions  
+ - mailgen : generate email
+ - for this project use ethereal for sending mail
+    -  go to nodemailer site and follow Ethereal instructions

@@ -256,3 +256,10 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
 
   - in client/helper/ create file `helper.js`
     - in helper.js create function for api requests to the backend endpoint
+    
+    - how we can access all these components inside react applications
+        -  ### store
+            - install library  `zustand` in client /src folder (redux can also be used)
+            - create a new directory `store`
+            - inside store create `store.js`
+

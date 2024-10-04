@@ -246,3 +246,13 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
  - mailgen : generate email
  - for this project use ethereal for sending mail
     -  go to nodemailer site and follow Ethereal instructions
+
+
+# using routes with react app
+
+## axios
+ - instead of using fetch api we are using axios
+  - npm i axios : allows us to make the api request 
+
+  - in client/helper/ create file `helper.js`
+    - in helper.js create function for api requests to the backend endpoint

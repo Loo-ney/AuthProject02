@@ -263,3 +263,8 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
             - create a new directory `store`
             - inside store create `store.js`
 
+
+# HOOKS
+## update password component with  backend data
+- create custom hook in react app
+     - use this hook anywhere to fetch the backend data

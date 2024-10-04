@@ -235,4 +235,5 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
 - get token from user and pass to update user
 - create new folder middleware in server and create auth.js file
 
-## creating /generateOTP in controller
+## creating /generateOTP and verifty otp
+- install a library called `npm i otp-generator`

@@ -282,3 +282,5 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
    - ## recovery
      - we recover by username and otp to email 
      - reset password
+
+   - ## verify OTP

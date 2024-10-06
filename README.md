@@ -268,3 +268,11 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
 ## update password component with  backend data
 - create custom hook in react app
      - use this hook anywhere to fetch the backend data
+     - in client/src/hooks/fetch.hook.js
+
+     - ## Register component
+      - didnt get it right
+    - ## password update
+    - ## logout functionality
+
+    

@@ -278,3 +278,7 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
     - ## protect profile from unauthorized users
         - profile and password
         - auth.js file
+
+   - ## recovery
+     - we recover by username and otp to email 
+     - reset password

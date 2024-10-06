@@ -275,4 +275,6 @@ assword.js Recovery.js Reset.js Profile.js PageNotFound.js
     - ## password update
     - ## logout functionality
 
-    
+    - ## protect profile from unauthorized users
+        - profile and password
+        - auth.js file
